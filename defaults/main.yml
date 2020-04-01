@@ -12,7 +12,7 @@ splunk_uf_system_group: "{{ splunk_uf_system_user }}"
 # syslog.  See http://docs.splunk.com/Documentation/Splunk/latest/Installation/RunSplunkasadifferentornon-rootuser for
 # requirements to run as a less privileged user.
 splunk_uf_start_on_boot: yes
-splunk_uf_install_url: https://download.splunk.com/products/universalforwarder/releases/6.6.5/linux/splunkforwarder-6.6.5-b119a2a8b0ad-Linux-x86_64.tgz
+splunk_uf_install_url: https://download.splunk.com/products/universalforwarder/releases/8.0.2.1/linux/splunkforwarder-8.0.2.1-f002026bad55-Linux-x86_64.tgz
 # Installations are done via the "universal" binary method instead of relying on the RPM or DEB package - it's easier to
 # install from the binary and it should work beyond RedHat/CentOS and Debian systems
 
